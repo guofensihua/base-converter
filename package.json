@@ -5,6 +5,14 @@
   "types": "build/index.d.ts",
   "license": "MIT",
   "private": "false",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guofensihua/base-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guofensihua/base-converter/issues"
+  },
+  "homepage": "https://github.com/guofensihua/base-converter#readme",
   "scripts": {
     "check-types": "tsc --noEmit",
     "clean": "rimraf build",
