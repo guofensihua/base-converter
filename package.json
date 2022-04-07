@@ -18,7 +18,7 @@
     "docs:build": "typedoc",
     "docs:serve": "serve docs",
     "serve-docs": "npm-run-all docs:*",
-    "pre-commit": "npm-run-all check-types lint"
+    "pre-commit": "npm-run-all check-types"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
