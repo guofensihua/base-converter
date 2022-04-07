@@ -1,0 +1,49 @@
+{
+  "name": "base-converter",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "license": "MIT",
+  "private": "false",
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "clean": "rimraf build",
+    "build:js": "tsc",
+    "build": "npm-run-all clean build:js",
+    "test": "jest",
+    "test:clear-cache": "jest --clearCache",
+    "test:coverage": "jest --coverage",
+    "coverage": "npm-run-all test:clear-cache test:coverage",
+    "lint": "eslint 'src/**/*.ts' --fix",
+    "docs:build": "typedoc",
+    "docs:serve": "serve docs",
+    "serve-docs": "npm-run-all docs:*",
+    "pre-commit": "npm-run-all check-types lint"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.6.2",
+    "rimraf": "^3.0.2",
+    "serve": "^13.0.2",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typedoc": "^0.22.14",
+    "typescript": "^4.6.3"
+  },
+  "files": [
+    "build/**/*"
+  ],
+  "keywords": [
+    "converter",
+    "math",
+    "numbers"
+  ]
+}
