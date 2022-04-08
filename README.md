@@ -1,3 +1,5 @@
+![badge](https://github.com/guofensihua/base-converter/workflows/Deployment%20to%20NPM%20registry/badge.svg)
+
 # Base converter
 
 Base converter is a NPM Package useful for converting numbers from one base to another.
