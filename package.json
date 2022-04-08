@@ -4,7 +4,7 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "license": "MIT",
-  "private": "false",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guofensihua/base-converter.git"
