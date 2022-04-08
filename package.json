@@ -1,5 +1,5 @@
 {
-  "name": "base-converter",
+  "name": "@sihuaguofen/base-converter",
   "version": "1.0.0",
   "main": "build/index.js",
   "types": "build/index.d.ts",
